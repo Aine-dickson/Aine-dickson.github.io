@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font-size: 20px;
+    background-image: url(Atom/2.jpg);
+}
+.intro{
+    position: relative;
+    top: 350px;
+    border-radius: 50%;
+}
+.back{
+    border-radius: 25%;
+    height: 100%;
+    max-width: 100%;
+    background-image: url(Atom/Aa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: opacity 2s ease-in-out;
+
+    animation-name: bode;
+    animation-timing-function: ease-in-out;
+    animation-duration: 20s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes bode {
+    10%{background-image: url(Atom/11.jpg);}
+    20%{background-image: url(Atom/12.jpg);}
+    30%{background-image: url(Atom/01.jpg);}
+    40%{background-image: url(Atom/02.jpg);}
+    50%{background-image: url(Atom/13.jpg);}
+    60%{background-image: url(Atom/14.jpg);}
+    70%{background-image: url(Atom/15.jpg);}
+    80%{background-image: url(Atom/03.jpg);}
+    90%{background-image: url(Atom/04.jpg);}
+    100%{background-image: url(Atom/05.jpg);}
+    
+}
+.intro{
+    height:100px;
+    margin: 100px;
+    width: auto;
+    background-image: url(Atom/smf.gif);
+    background-size: contain;
+    border-color: tomato;
+    text-align: center;
+    color: blue;
+}
+#call{
+    color: firebrick;
+    padding-top: 10px;
+    text-shadow: 3px 3px 3px blue;
+    font-size: 30px;
+}
+a{
+    background-color: rgb(23, 0, 128);
+    border-radius: 25%;
+    text-decoration: none;
+    color: yellow;
+}
